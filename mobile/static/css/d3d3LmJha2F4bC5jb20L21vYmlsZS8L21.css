@@ -1,0 +1,186 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei",Arial,"Helvetica Neue",Helvetica,sans-serif;
+	background: url("../image/d3d3LmJha2F4bC5jb202.jpg") no-repeat fixed right #ffffff;
+	background-size: cover;
+	color: #000000 font-size: 1.0rem;
+}
+
+body a {
+	color: #000000;
+	text-decoration: none
+}
+
+body a:hover {
+	text-decoration: none
+}
+
+body .alphaBtn {
+	cursor: pointer
+}
+
+header {
+	width: 100%;
+	z-index: 9998;
+}
+
+#wrapper {
+	overflow: hidden;
+	width: 100%;
+	max-width:540px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 1.8rem;
+}
+
+#wrapper footer {
+	width: 100%;
+	padding: 100px 0 15px 0;
+	text-align: center;
+	color: #666;
+	font-size: 1.3rem;
+}
+
+#wrapper footer a {
+	color: #999
+}
+
+#wrapper footer .copyright {
+	line-height: 1.2em;
+}
+
+#wrapper footer .btnPagetop {
+	display: table;
+	text-align: center;
+	width: 95%;
+	height: 70px;
+	margin: 0 auto 20px;
+	background: #71adff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#wrapper footer .btnPagetop a {
+	display: block;
+}
+
+.btnPagetop p {
+	display: table-cell;
+	vertical-align: middle;
+	height: 70px;
+}
+
+.share-buttons {
+	display: table;
+	text-align: center;
+	margin: 20px auto 40px;
+	border-collapse: separate;
+	border-spacing: 20px 0;
+}
+
+.share-buttons li {
+	display: table-cell;
+	vertical-align: middle;
+	height: 44px;
+	width: 194px;
+	margin-right: 20px;
+	background: #47c5ff;
+	color: #fff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.footer-info span {
+	margin: 0 10px;
+	color: #fff;
+}
+
+.copyright {
+	margin-top: 20px;
+	color: #fff;
+}
+
+header .menu {
+	position: relative;
+}
+
+header .logo {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	width: 100px;
+	height: 85
+}
+
+.global-menu {
+	width: 100%;
+	background: #ffbe10;
+}
+
+.global-menu li {
+	position: relative;
+	display: inline-block;
+	padding-left: 20px;
+	width: 294px;
+	height: 70px;
+}
+
+.global-menu li img {
+	position: absolute;
+	top: 27%;
+}
+
+label {
+	background: #FFBE10;
+	color: #fff;
+	padding: 10px;
+	display: block;
+	margin: 8px 0 0 8px;
+	width: 64px;
+	height: 68px;
+	text-align: center
+}
+
+input[type="checkbox"].on-off {
+	display: none;
+}
+
+.menu ul {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	margin: 0;
+	padding: 0
+}
+
+input[type="checkbox"].on-off + ul {
+	height: 0;
+	overflow: hidden
+}
+
+input[type="checkbox"].on-off:checked + ul {
+	height: 380px
+}
+
+.center {
+	display: block;
+	text-align: center;
+}
+
+iframe[name="google_conversion_frame"] {
+	position: absolute;
+	height: 0;
+}
